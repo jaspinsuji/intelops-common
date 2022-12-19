@@ -1,0 +1,62 @@
+.mainButton{
+    padding: 0.75rem 1.5rem ;
+    display: inline-block;
+    font-weight: 700;
+    font-size: .75rem;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-right: 0.75rem;
+    box-sizing: border-box;
+    border: 0 solid;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,1,1);
+    transition-duration: .15s;
+}
+.mainButton:hover{
+    -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+.contained{
+    background-color: #cb0c9f;
+    color: white;
+}
+.gradient{
+    background: linear-gradient(to bottom right, #cb0c9f 30% , #7928ca);
+    /* background: linear-gradient(to right, #cb0c9f 0%,  #cb0c9f 50%, #7928ca 50% #7928ca 100%); */
+    /* background-color: linear-gradient(to right, #ff0080 , #7928ca); */
+    color: white;
+}
+.outlined{
+    color: #cb0c9f;
+    border-color: #cb0c9f;
+    border-width: 1px;
+}
+.text{
+    color: #cb0c9f;
+    background-color: transparent;
+    box-shadow: none;
+}
+.text:hover{
+    background-color: #cb0c9e1f;
+}
+.setIcon{
+    color: white;
+    font-weight: 900;
+    background: linear-gradient(to bottom right, #cb0c9f 30% , #7928ca);
+    /* background-color: linear-gradient(to right, #ff0080 , #7928ca); */
+}
+.default{
+    background-color: yellow;
+}
+.user1{
+    background-color:orangered;
+}
+.user2{
+    background-color:blue;
+}
