@@ -1,0 +1,21 @@
+{
+    "name": "@intelops_ui/modal",
+    "version": "1.0.0",
+    "description": "Modal component",
+    "main": "index.js",
+    "author": "Intelops user",
+    "license": "ISC",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --mode development --open --hot",
+        "build": "webpack --mode production",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+      },
+    "peerDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "lerna": "6.4.1",
+    "npmClient": "npm",
+    "version": "independent",
+    "packages": ["packages/react/components/**/*"],
+    "registry": "https://registry.npmjs.org/",
+    "command": {
+        "publish": {
+            "ignoreChanges": ["*.md", "tests/*", "ignored-files"]
+        }
+    }
+}

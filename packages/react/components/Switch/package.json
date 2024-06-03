@@ -1,0 +1,21 @@
+{
+    "name": "@intelops/switch",
+    "version": "1.0.1",
+    "description": "Switch Button component",
+    "main": "dist/index.js",
+    "author": "Intelops user",
+    "license": "ISC",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --mode development --open --hot",
+        "build": "cross-env webpack -p --config ../../../../webpack.config.js",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+      },
+    "peerDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
